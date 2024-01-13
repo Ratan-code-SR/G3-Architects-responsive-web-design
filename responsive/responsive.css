@@ -1,10 +1,14 @@
 @media screen and (max-width:576px) {
 
     .nav-content,
-    .features-content,
-    .experience-content {
+    .features-content {
         flex-direction: column;
         padding: 18px 0;
+    }
+
+    .experience-content {
+        gap: 1rem;
+        flex-direction: column;
     }
 
     .banner-content {
@@ -31,16 +35,23 @@
 
     }
 
+    .experience-left-content {
+        width: 100%;
+    }
 
 }
 
 @media screen and (min-width:576px) and (max-width:950px) {
 
     .nav-content,
-    .features-content,
-    .experience-content {
+    .features-content {
         flex-direction: column;
         padding: 18px 0;
+    }
+
+    .experience-content {
+        gap: 1rem;
+        flex-direction: column;
     }
 
     .banner-content {
@@ -62,6 +73,10 @@
     .right-content {
         width: 60%;
 
+    }
+
+    .experience-left-content {
+        width: 100%;
     }
 
 }
