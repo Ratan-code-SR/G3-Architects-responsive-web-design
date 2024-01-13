@@ -12,7 +12,7 @@
     --orange-color: #FF900E;
     --white-color: #fff;
     --light-peach-color: #FFF4E7;
-    --rgba-color: #fff4e7;
+    --rgba-color: rgba(255, 144, 14, 0.10);
 
 }
 
@@ -118,8 +118,8 @@ li {
 }
 
 .features-content .lef-img img {
-    width: 100%;
-    height: auto;
+    width: 240px;
+    height: 230px;
 }
 
 /* right-content */
@@ -143,7 +143,7 @@ li {
 .experience-content {
     display: flex;
     justify-content: space-evenly;
-    gap: 5rem;
+    gap: 3rem;
 }
 
 .experience-left-content {
@@ -160,6 +160,11 @@ li {
     padding: 0 13px;
     margin-bottom: 1rem;
     font-weight: 700;
+    margin-left: 10px;
+}
+
+.padding {
+    padding: 10px;
 }
 
 .experience-left-content-bottom {
