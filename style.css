@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --dark-color: #131313;
+    --gray-color: #727272;
+    --orange-color: #FF900E;
+    --white-color: #fff;
+    --light-peach-color: #FFF4E7;
+    --rgba-color: #fff4e7;
+
+}
+
+/* nested css */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.h2 {
+    color: var(--dark-color);
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.p {
+    color: var(--gray-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: var(--orange-color);
+    padding: 15px 20px;
+    color: var(--white-color);
+    font-size: 15px;
+    border: none;
+    margin-top: 1rem;
+}
+
+.m-y {
+    margin: 100px 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* header-section */
+#header-section {
+    background-color: var(--rgba-color);
+}
+
+.nav-title {
+    color: var(--dark-color);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.nav-ul {}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* banner section */
+.banner-content {
+    text-align: center;
+    width: 600px;
+    margin: 5rem auto;
+}
+
+.banner-img img {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.banner-title {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/* features-section*/
+.features-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.features-content .lef-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.features-content .lef-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* right-content */
+.right-content {
+    width: 450px;
+}
+
+.quick-list {
+    color: var(--gray-color);
+}
+
+.our {
+    color: var(--dark-color);
+}
+
+.features {
+    color: var(--orange-color);
+}
